@@ -1,0 +1,66 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+}
+
+nav {
+  background: red;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  margin: 10px;
+}
+
+table {
+  background: white;
+  color: black;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.banner {
+  height: 250px;
+  background: url('https://via.placeholder.com/1200x250') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: red;
+  margin-top: 20px;
+}
